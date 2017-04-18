@@ -1,0 +1,22 @@
+.board-container button {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  background: none;
+  font-size: 30px;
+  font-weight: 600;
+  outline: none;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+
+.board-container .board-row:nth-of-type(even) button {
+  border-top: none;
+  border-bottom: none;
+}
+
+.board-row button:nth-of-type(even) {
+  border-left: none;
+  border-right: none;
+}
